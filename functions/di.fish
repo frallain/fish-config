@@ -1,3 +1,3 @@
 function di
-    docker images
+    docker images | sort
 end

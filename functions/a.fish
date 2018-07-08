@@ -1,3 +1,8 @@
 function a
-    git add -u .
+    if count $argv > /dev/null
+        git add $argv
+    else
+        git add -u .
+    end
+    
 end
