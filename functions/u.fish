@@ -1,8 +1,8 @@
-function o
+function u
     if count $argv > /dev/null
-        gnome-open $argv
+        git reset -- $argv
     else
-        gnome-open .
+        git reset
     end
     
 end
