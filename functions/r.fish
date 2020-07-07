@@ -1,3 +1,3 @@
 function r
-    docker-compose run dev
+    docker-compose run --service-ports dev
 end

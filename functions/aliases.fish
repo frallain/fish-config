@@ -1,6 +1,4 @@
 
-alias dc='docker-compose'
-
 alias pp='ps faux --cumulative'
 alias ..='cd ..'
 alias ....='cd ../../'
