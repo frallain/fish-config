@@ -6,4 +6,5 @@ function clean
     rm --force --recursive dist/
     rm --force --recursive htmlcov/
     find . -name '*.egg-info' -type d | xargs rm -rf
+    find . -name '*.orig'     -type f | xargs rm -rf
 end

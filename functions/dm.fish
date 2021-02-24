@@ -1,0 +1,3 @@
+function dm
+    git diff origin/master...
+end
