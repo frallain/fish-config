@@ -7,6 +7,8 @@ alias ........='cd ../../../../'
 alias ..........='cd ../../../../../'
 alias ggpy='grep -GrinH --color=auto --include \*.py'
 alias ssh='ssh -o ServerAliveInterval=60'
+alias k='kubectl'
+alias kl='kubectl get pods --all-namespaces'
 # function poinpoin {
 #     for point in {0 .. $1};do cd ..;done;
 # }

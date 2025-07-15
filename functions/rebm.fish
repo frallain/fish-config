@@ -4,5 +4,5 @@ function rebm
     #git rebase origin/master    # Rebases current branch onto origin/master
 
     # more concise way
-    git pull --rebase origin master
+    git pull --rebase origin main
 end

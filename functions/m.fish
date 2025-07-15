@@ -1,3 +1,3 @@
 function m
-    git checkout master
+    git checkout main
 end
